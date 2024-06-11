@@ -2,12 +2,16 @@
 print('JOGO DA VELHA')
 
 matriz = [[' ', ' ', ' '],
-              [' ', ' ', ' '],
-              [' ', ' ', ' ']]
+          [' ', ' ', ' '],
+          [' ', ' ', ' ']]
 nome1 = input('jogador 1: ')
 nome2 = input('Jogador 2: ')
 print('')
 i = 4
+print(matriz[0])
+print(matriz[1])
+print(matriz[2])
+print('')
 while i != 0:
     print(f'{nome1}, faça sua jogada: ')
     x, y = map(int, input('Linha e coluna: ').split())
